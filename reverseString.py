@@ -1,6 +1,7 @@
 class Solution:
-     def reverseString(self, s: str) -> str:
+    def reverseString(self, s: str) -> str:
         return s[::-1]
+
 
 if __name__ == "__main__":
     t = int(input())
